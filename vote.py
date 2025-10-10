@@ -76,8 +76,8 @@ def read_json_to_dict(filename):
     # Map instance_id to model_patch
     return {v['instance_id']: v['model_patch'] for v in data.values()}
 
-correct_patch_dict = read_json_to_dict('correct_patch.json')
-error_patch_dict   = read_json_to_dict('error_patch.json')
+patch_dict_1 = read_json_to_dict('patch_1.json')
+patch_dict_2   = read_json_to_dict('patch_2.json')
 
 # 2. Read df_issue and build mapping: instance_id -> problem_statement
 df_issue = pd.read_parquet('test-00000-of-00001.parquet')
@@ -85,10 +85,10 @@ instance2problem = dict(zip(df_issue['instance_id'], df_issue['problem_statement
 
 # 3. Iterate over instance_ids from JSON and build prompts
 query_lst = []
-for idx, instance_id in enumerate(correct_patch_dict.keys()):
+for idx, instance_id in enumerate(patch_dict_1.keys()):
     problem_statement = instance2problem.get(instance_id, "")
-    diff_1 = correct_patch_dict.get(instance_id, "")
-    diff_2 = error_patch_dict.get(instance_id, "")
+    diff_1 = patch_dict_1.get(instance_id, "")
+    diff_2 = patch_dict_2.get(instance_id, "")
 
     prompt = prompt_template.format(
         problem_statement=problem_statement,
