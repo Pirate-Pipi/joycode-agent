@@ -1,0 +1,51 @@
+{
+  "description": "Example Large Model Configuration File",
+  "version": "2.0",
+  "models": {
+    "patch_generation": {
+      "model_name": "gpt-5",
+      "max_retries": 10,
+      "temperature": 0.1,
+      "max_tokens": 32000,
+      "api_key": "sk-your-openai-api-key-here",
+      "base_url": "https://api.openai.com/v1",
+      "timeout": 120
+    },
+    "test_generation": {
+      "model_name": "Claude-sonnet-4",
+      "max_retries": 8,
+      "temperature": 0.1,
+      "max_tokens": 32000,
+      "api_key": "sk-your-openai-api-key-here",
+      "base_url": "https://api.openai.com/v1",
+      "timeout": 120
+    },
+    "trajectory_compression": {
+      "model_name": "gpt-4.1",
+      "max_retries": 8,
+      "temperature": 0,
+      "max_tokens": 32000,
+      "api_key": "sk-your-openai-api-key-here",
+      "base_url": "https://api.openai.com/v1",
+      "timeout": 300
+    },
+    "similarity_search": {
+      "model_name": "gpt-4",
+      "max_retries": 8,
+      "temperature": 0,
+      "max_tokens": 32000,
+      "api_key": "sk-your-openai-api-key-here",
+      "base_url": "https://api.openai.com/v1",
+      "timeout": 300
+    },
+    "retry_agent": {
+      "model_name": "gpt-5",
+      "max_retries": 10,
+      "temperature": 0.1,
+      "max_tokens": 32000,
+      "api_key": "sk-your-openai-api-key-here",
+      "base_url": "https://api.openai.com/v1",
+      "timeout": 120
+    }
+  }
+}
