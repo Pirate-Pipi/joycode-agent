@@ -157,8 +157,8 @@ python vote.py
 ```
 
 **Input Requirements:**
-- `correct_patch.json`: Primary patch candidates
-- `error_patch.json`: Alternative patch candidates  
+- `patch_1.json`: Primary patch candidates
+- `patch_2.json`: Alternative patch candidates  
 - `test-00000-of-00001.parquet`: Instance metadata with problem statements
 
 ### Pipeline Stages
